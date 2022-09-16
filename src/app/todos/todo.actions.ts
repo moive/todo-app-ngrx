@@ -8,3 +8,8 @@ export const toggleTodo = createAction(
   '[TODO] toggle',
   props<{ id: number }>()
 );
+
+export const editTodo = createAction(
+  '[TODO] edit',
+  props<{ id: number; text: string }>()
+);
