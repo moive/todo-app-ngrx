@@ -13,3 +13,8 @@ export const editTodo = createAction(
   '[TODO] edit',
   props<{ id: number; text: string }>()
 );
+
+export const deleteTodo = createAction(
+  '[TODO] delete',
+  props<{ id: number }>()
+);
