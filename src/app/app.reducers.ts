@@ -1,5 +1,5 @@
 import { ActionReducerMap } from '@ngrx/store';
-import { filterReducer } from 'src/filter/filter.reducer';
+import { filterReducer } from './filter/filter.reducer';
 import { AppState } from './reducer.interface';
 import { todoReducer } from './todos/todo.reducer';
 
